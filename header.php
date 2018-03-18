@@ -1,0 +1,1 @@
+<?php echo "<p>common header</p>"; ?>
