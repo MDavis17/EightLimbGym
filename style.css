@@ -1,0 +1,33 @@
+#user,#logout {
+	float:right;
+}
+
+h1 {
+	color: white;
+	vertical-align: middle;
+	padding-top: 80px;
+}
+
+#user {
+	color: white;
+}
+
+#title {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	height: 200px;
+    text-align: center;
+	background-image: url("http://pic.ucla.edu/~mdavis17/final_project/Thailand.png");
+}
+
+#menu .menu_item {
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	background-color: white;
+	border: solid 1px black;
+}
