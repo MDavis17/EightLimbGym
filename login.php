@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		<script type="text/javascript">
+		<script type="text/javascript" src="utils.js">
 			// function set_user_cookie() {
 			// 	var username_field = document.getElementById("user_name");
 			// 	document.cookie = "user="+username_field.value;

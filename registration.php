@@ -8,6 +8,7 @@
 	</head>
 
 	<body>
+		<script type="text/javascript" scr="utils.js"></script>
 		<?php include 'header.php';?>
 		<p>Welcome to the registration page!</p>
 		<form action="http://pic.ucla.edu/~mdavis17/final_project/process_registration.php" method="post">

@@ -9,9 +9,7 @@
 	</head>
 
 	<body>
-		<script type="text/javascript" src="utils.js">
-			
-		</script>
+		<script type="text/javascript" src="utils.js"></script>
 		<?php include 'header.php';?>
 
 		<p>

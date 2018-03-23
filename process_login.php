@@ -44,7 +44,7 @@
 
 	if($record = $result->fetchArray()) {
 		create_update_cookie($u_name,$ttl);
-		header("Location: http://pic.ucla.edu/~mdavis17/final_project/home.php");
+		header("Location: http://pic.ucla.edu/~mdavis17/final_project/my_progress.php");
 	}
 	else {
 		print "<p>there is nobody with the username: $u_name</p>";

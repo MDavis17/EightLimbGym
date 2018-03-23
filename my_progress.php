@@ -5,26 +5,23 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>Login/Registration</title> 
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<script type="text/javascript" src="utils.js">
-			// function login_or_redirect() {
-			// 	var cookies = document.cookie.split(";");
-			// 	var logged_in = false;
-			// 	for(let i = 0; i < cookies.length; i++) {
-			// 		var cookie = cookies[i].split("=");
-			// 		if(cookie[0]=="user") {
-			// 			logged_in = true;
-			// 		}
-			// 	}
-			// 	if(!logged_in) {
-			// 		window.location.replace("http://pic.ucla.edu/~mdavis17/final_project/login.php");
+		<script type="text/javascript" src="login_or_redirect.js">
+			// var cookies = document.cookie.split(";");
+			// var logged_in = false;
+			// for(let i = 0; i < cookies.length; i++) {
+			// 	var cookie = cookies[i].split("=");
+			// 	if(cookie[0]=="user") {
+			// 		logged_in = true;
 			// 	}
 			// }
-			login_or_redirect();
+			// if(!logged_in) {
+			// 	window.location.replace("http://pic.ucla.edu/~mdavis17/final_project/login.php");
+			// }
 		</script>
 	</head>
 
 	<body>
-
+		<script type="text/javascript" src="utils.js"></script>
 		<?php include 'header.php';?>
 		<p>Welcome to your progress page!</p>
 	</body>
