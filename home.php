@@ -11,10 +11,11 @@
 	<body>
 		<script type="text/javascript" src="utils.js"></script>
 		<?php include 'header.php';?>
+		<script type="text/javascript" src="home.js"></script>
 
 		<p>
 			Welcome to the home page!<br/>
-			<a href="http://pic.ucla.edu/~mdavis17/final_project/login.php">login or register</a> to join the ### Nak Muays currently using Eight Limb Gym<br/><br/>
+			<a href="http://pic.ucla.edu/~mdavis17/final_project/login.php">login or register</a> to join the <span id="num_nak"></span> Nak Muays currently using Eight Limb Gym<br/><br/>
 			<!--<a href="http://pic.ucla.edu/~mdavis17/final_project/my_progress.php">MyProgress</a>-->
 			This application is designed to help you achive your Muay Thai goals by helping you design workouts, track your progress, and prepare for your next rank test.
 			To view your plan or start a new one, visit the "My Progress" page.

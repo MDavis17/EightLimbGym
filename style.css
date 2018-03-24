@@ -35,3 +35,8 @@ h1 {
 #logout {
 	position: absolute;
 }
+
+#error {
+	color: red;
+	text-decoration: bold;
+}

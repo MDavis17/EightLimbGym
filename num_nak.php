@@ -1,10 +1,5 @@
 #!/usr/local/bin/php
 <?php
-	$ttl = 3600; // seconds (3600=1hr)
-	function create_update_cookie($user_name,$time_to_exp) {
-		setcookie("user",$user_name,time()+$time_to_exp);
-	}
-
 	$database = "muaythai.db";
 
 	try  
@@ -39,14 +34,10 @@
 	$u_name = $_POST['user'];
 	$email = $_POST['email'];
 
-	$sql = "SELECT * FROM $table WHERE user='$u_name'";
+	$sql = "SELECT Count(*) AS count FROM $table";
 	$result = $db->query($sql);
-
+	
 	if($record = $result->fetchArray()) {
-		create_update_cookie($u_name,$ttl);
-		header("Location: http://pic.ucla.edu/~mdavis17/final_project/my_progress.php");
-	}
-	else {
-		header("Location: http://pic.ucla.edu/~mdavis17/final_project/login.php?login=failed");
+		print $record['count'];
 	}
 ?>

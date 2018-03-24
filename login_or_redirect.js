@@ -7,5 +7,5 @@ for(let i = 0; i < cookies.length; i++) {
 	}
 }
 if(!logged_in) {
-	window.location.replace("http://pic.ucla.edu/~mdavis17/final_project/login.php");
+	window.location.replace("http://pic.ucla.edu/~mdavis17/final_project/login.php?my_progress=false");
 }

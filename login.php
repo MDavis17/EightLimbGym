@@ -8,20 +8,12 @@
 	</head>
 
 	<body>
-		<script type="text/javascript" src="utils.js">
-			// function set_user_cookie() {
-			// 	var username_field = document.getElementById("user_name");
-			// 	document.cookie = "user="+username_field.value;
-			// }
-			// function setUrl(url) {
-			// 	location.href = url;
-			// }
-		</script>
+		<script type="text/javascript" src="utils.js"></script>
 
 		<?php include 'header.php';?>
 		<p>
 			Welcome to the login page!<br/>
-			<a href="http://pic.ucla.edu/~mdavis17/final_project/registration.php">register</a> here if you dont have an account yet! <br/>
+			<a href="#" onclick='register()'>register</a> here if you dont have an account yet! <br/>
 		</p>
 		<form action="http://pic.ucla.edu/~mdavis17/final_project/process_login.php" method="post">
 			<fieldset>
