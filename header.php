@@ -29,17 +29,17 @@
 			$result = $db->query($sql);
 
 			if($record = $result->fetchArray()) {
-				echo "<p id='user'>Sawadee krup ".$record[$field1]."!</p>";
+				echo "<p id='user'>Sawadee krup ".$record[$field1]."!";
 			}
 			else {
-				echo "<p id='user'>No record.Sawadee krup!</p>";
+				echo "<p id='user'>No record.Sawadee krup!";
 			}
 		}
 		else {
-			echo "<p id='user'>Sawadee krup!</p>";
+			echo "<p id='user'>Sawadee krup!";
 
 		}
-		echo "<input type='button' id='logout' value='Log out' onclick='log_out(\"http://".$url."\")'/>";
+		echo "<input type='button' id='logout' value='Log out' onclick='log_out(\"http://".$url."\")'/></p>";
 		echo "<h1><a id= 'title' href='http://pic.ucla.edu/~mdavis17/final_project/home.php'>Eight Limb Gym</a></h1>";
 		echo "<h4>Online Muay Thai Training Tool</h3>";
 		echo "<ul id='menu'>";
