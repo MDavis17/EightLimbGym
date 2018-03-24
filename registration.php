@@ -10,15 +10,18 @@
 	<body>
 		<script type="text/javascript" scr="utils.js"></script>
 		<?php include 'header.php';?>
-		<p>Welcome to the registration page!</p>
-		<form action="http://pic.ucla.edu/~mdavis17/final_project/process_registration.php" method="post">
-			<fieldset>
-				First Name:<input type="text" id="f_name_reg" name="first"/><br/>
-				Last Name:<input type="text" id="l_name_reg" name="last"/><br/>
-				Username:<input type="text" id="u_name_reg" name="user"/><br/>
-				Email:<input type="text" id="email_reg" name="email"/><br/>
-				<input type="submit"/>
-			</fieldset>
-		</form>
+		<div class="main_container">
+			<p>Welcome to the registration page!</p>
+			<form action="http://pic.ucla.edu/~mdavis17/final_project/process_registration.php" method="post">
+				<fieldset>
+					First Name:<input type="text" id="f_name_reg" name="first"/><br/>
+					Last Name:<input type="text" id="l_name_reg" name="last"/><br/>
+					Username:<input type="text" id="u_name_reg" name="user"/><br/>
+					Email:<input type="text" id="email_reg" name="email"/><br/>
+					<input type="submit"/>
+				</fieldset>
+			</form>
+		</div>
+		
 	</body>
 </html>

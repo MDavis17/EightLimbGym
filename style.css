@@ -5,11 +5,27 @@
 h1 {
 	color: white;
 	vertical-align: middle;
-	padding-top: 80px;
+	padding-top: 75px;
+	margin: 0px;
+	font-size: 275%;
+}
+
+h4 {
+	margin-top: 15px;
+	margin-bottom:8px;
+}
+
+body {
+	margin: 0px;
+}
+
+.main_container {
+	margin: 8px;
 }
 
 #user {
 	color: white;
+	margin-right: 5px;
 }
 
 #title {
@@ -18,18 +34,34 @@ h1 {
 }
 
 .header {
+	position: relative;
 	height: 200px;
     text-align: center;
 	background-image: url("http://pic.ucla.edu/~mdavis17/final_project/Thailand.png");
 }
 
+.header input {
+	right:2%;
+}
+
+#menu {
+	padding: 0px;
+	margin: 0px;
+}
+
 #menu .menu_item {
-	text-decoration: none;
+	color: white;
 	display: inline-block;
-	width: 100px;
+	width: 200px;
 	text-align: center;
-	background-color: white;
-	border: solid 1px black;
+	border: solid 2px black;
+	border-radius: 2px;
+	font-size: 160%;
+}
+
+.#menu a {
+	text-decoration: none;
+	color: white;
 }
 
 #logout {

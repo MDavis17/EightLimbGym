@@ -12,6 +12,9 @@
 	<body>
 		<script type="text/javascript" src="utils.js"></script>
 		<?php include 'header.php';?>
-		<p>Welcome to your progress page!</p>
+		<div class="main_container">
+			<p>Welcome to your progress page!</p>
+		</div>
+		
 	</body>
 </html>

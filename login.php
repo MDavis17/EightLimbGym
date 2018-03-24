@@ -11,15 +11,18 @@
 		<script type="text/javascript" src="utils.js"></script>
 
 		<?php include 'header.php';?>
-		<p>
+		<div class="main_container">
+			<p>
 			Welcome to the login page!<br/>
 			<a href="#" onclick='register()'>register</a> here if you dont have an account yet! <br/>
-		</p>
-		<form action="http://pic.ucla.edu/~mdavis17/final_project/process_login.php" method="post">
-			<fieldset>
-				Username: <input id="user_name" type="text" name="user"/><br/>
-				<input type="submit" onclick="setUrl('http://pic.ucla.edu/~mdavis17/final_project/home.php')"/>
-			</fieldset>
-		</form>
+			</p>
+			<form action="http://pic.ucla.edu/~mdavis17/final_project/process_login.php" method="post">
+				<fieldset>
+					Username: <input id="user_name" type="text" name="user"/><br/>
+					<input type="submit" onclick="setUrl('http://pic.ucla.edu/~mdavis17/final_project/home.php')"/>
+				</fieldset>
+			</form>
+		</div>
+		
 	</body>
 </html>
