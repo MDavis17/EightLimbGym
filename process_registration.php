@@ -50,6 +50,22 @@
 
 	$sql = "INSERT INTO $table (user) VALUES ('$u_name')";
 	$result = $db->query($sql);
+
+
+	$table = "logs";
+	$field1 = "user";
+	$field2 = "time";
+	$field3 = "moves";
+	$field4 = "notes";
+
+	$sql= "CREATE TABLE IF NOT EXISTS $table (
+		$field1 varchar(15),
+		$field2 int,
+		$field3 varchar(100),
+		$field4 varchar(1000)
+	)";
+	$result = $db->query($sql);
+
 	
 	$table = "users";
 	$field1 = "first";
@@ -80,4 +96,6 @@
 			header("Location: http://pic.ucla.edu/~mdavis17/final_project/login.php");
 		}
 	}
+	$db->close();
+	unset($db);
 ?>

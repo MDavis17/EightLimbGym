@@ -34,6 +34,8 @@
 			else {
 				echo "<p id='user'>No record.Sawadee Krup!";
 			}
+			$db->close();
+			unset($db);
 		}
 		else {
 			echo "<p id='user'>Sawadee Krup!";

@@ -93,3 +93,11 @@ body {
 	height: 100%;
 	background-color: green;
 }
+
+.log_entry {
+	border: 1px solid black;
+}
+
+.notes {
+	border: 1px solid black;
+}

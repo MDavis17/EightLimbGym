@@ -49,4 +49,6 @@
 	else {
 		header("Location: http://pic.ucla.edu/~mdavis17/final_project/login.php?login=failed");
 	}
+	$db->close();
+	unset($db);
 ?>

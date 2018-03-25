@@ -40,4 +40,6 @@
 	if($record = $result->fetchArray()) {
 		print $record['count'];
 	}
+	$db->close();
+	unset($db);
 ?>

@@ -21,9 +21,8 @@
 				Requirements for white Prajiet Test
 			</div>
 			<form id="form" action="http://pic.ucla.edu/~mdavis17/final_project/my_progress.php" method="post">
-
 				<fieldset>
-					Date<input type="date" name="time"/></br>
+					Date<?php date_default_timezone_set('America/Los_Angeles'); echo "<input type=\"date\" id='date' name=\"time\" value=\"".date("Y-m-d")."\"/></br>";?>
 					<input type="checkbox" name="stance"/>Stance <span class="move"></span></br>
 					<input type="checkbox" name="step_slide"/>Step and slide <span class="move" id="step_and_slide"></span></br>
 					<input type="checkbox" name="shadowbox"/>Shadowbox <span id="shadowbox" class="move"></span></br>
@@ -36,23 +35,19 @@
 					<input type="checkbox" name="round"/>Round kick <span id="round" class="move"></span></br>
 					<input type="checkbox" name="skip_knee"/>Skip knee <span id="skip_knee" class="move"></span></br>
 					<input type="checkbox" name="straight_knee"/>Straight knee <span id="straight_knee" class="move"></span></br>
-					<input type="checkbox" name="four_count_1"/>Four count 1 <span id="four_1" class="move"></span></br>
-					<input type="checkbox" name="four_count_2"/>Four count 2 <span id="four_2" class="move"></span></br>
-					<input type="checkbox" name="four_count_3"/>Four count 3 <span id="four_3" class="move"></span></br>
-					<input type="checkbox" name="four_count_4"/>Four count 4 <span id="four_4" class="move"></span></br>
+					<input type="checkbox" name="four_count_1"/>Four count one <span id="four_1" class="move"></span></br>
+					<input type="checkbox" name="four_count_2"/>Four count two <span id="four_2" class="move"></span></br>
+					<input type="checkbox" name="four_count_3"/>Four count three <span id="four_3" class="move"></span></br>
+					<input type="checkbox" name="four_count_4"/>Four count four <span id="four_4" class="move"></span></br>
 					<input type="checkbox" name="pillar_d"/>Pillar defense <span id="piller" class="move"></span></br>
 					<input type="checkbox" name="parry_d"/>Parry defense <span id="parry" class="move"></span></br>
 					<input type="checkbox" name="tight_cover_d"/>Tight cover defense <span id="tight_cover" class="move"></span></br>
-					<!-- Wai<input type="text" name="wai_q"/></br>
-					Ka/Kap<input type="text" name="ka_kap_q"/></br>
-					Mai Ka/Kap<input type="text" name="mai_ka_kap_q"/></br>
-					Sawadee Ka/Kap<input type="text" name="sawadee_ka_kap_q"/></br>
-					Teep<input type="text" name="teep_q"/></br>
-					Sawk<input type="text" name="sawk_q"/></br>
-					Tang<input type="text" name="tang_q"/></br> -->
+					Notes</br><textarea id='notes' maxlength='500'></textarea></br>
 					<input type="submit" onclick="process_form()"/>
 				</fieldset>
 			</form>
+			<div id="log">
+			</div>
 		</div>
 		
 	</body>
