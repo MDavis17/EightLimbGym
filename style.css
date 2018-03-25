@@ -79,3 +79,17 @@ body {
 	color: red;
 	text-decoration: bold;
 }
+
+#progress_bar {
+	position: relative;
+	width:500px;
+	height: 30px;
+	border: 2px solid black;
+}
+
+#progress_fill {
+	left:0%;
+	width: 0%;
+	height: 100%;
+	background-color: green;
+}
