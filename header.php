@@ -29,14 +29,14 @@
 			$result = $db->query($sql);
 
 			if($record = $result->fetchArray()) {
-				echo "<p id='user'>Sawadee krup ".$record[$field1]."!";
+				echo "<p id='user'>Sawadee Krup ".$record[$field1]."!";
 			}
 			else {
-				echo "<p id='user'>No record.Sawadee krup!";
+				echo "<p id='user'>No record.Sawadee Krup!";
 			}
 		}
 		else {
-			echo "<p id='user'>Sawadee krup!";
+			echo "<p id='user'>Sawadee Krup!";
 
 		}
 		echo "<input type='button' id='logout' value='Log out' onclick='log_out(\"http://".$url."\")'/></p>";
