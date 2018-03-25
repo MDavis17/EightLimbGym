@@ -19,63 +19,9 @@
 				
 			<div id="progress_div">
 				Requirements for white Prajiet Test
-				<!-- <ul>
-					<li>Stance: <span class="move"></span></li>
-					<li>Step and slide: <span class="move" id="step_and_slide"></span></li>
-					<li>Shadowbox: <span id="shadowbox" class="move"></span></li>
-					<li>Jab: <span id="jab" class="move"></span></li>
-					<li>Cross: <span id="cross" class="move"></span></li>
-					<li>Hook: <span id="hook" class="move"></span></li>
-					<li>Horizontal elbow: <span id="h_elbow" class="move"></span></li>
-					<li>Diagonal rising elbow: <span id="dr_elbow" class="move"></span></li>
-					<li>Teep: <span id="teep" class="move"></span></li>
-					<li>Round kick: <span id="round" class="move"></span></li>
-					<li>Skip knee: <span id="skip_knee" class="move"></span></li>
-					<li>Straight knee: <span id="straight_knee" class="move"></span></li>
-					<li>Four count 1: <span id="four_1" class="move"></span></li>
-					<li>Four count 2: <span id="four_2" class="move"></span></li>
-					<li>Four count 3: <span id="four_3" class="move"></span></li>
-					<li>Four count 4: <span id="four_4" class="move"></span></li>
-					<li>Pillar defense: <span id="piller" class="move"></span></li>
-					<li>Parry defense: <span id="parry" class="move"></span></li>
-					<li>Tight cover defense: <span id="tight_cover" class="move"></span></li>
-				</ul> -->
 			</div>
-			<form id="form" action="http://pic.ucla.edu/~mdavis17/final_project/my_progress.php" method="get">
-				<!-- // $field1 = "user";
-	// $field2 = "time";
-	// $field3 = "stance";
-	// $field4 = "step_slide";
-	// $field5 = "shadowbox";
-	// $field6 = "jab";
-	// $field7 = "cross";
-	// $field8 = "hook";
-	// $field9 = "h_elbow";
-	// $field10 = "dr_elbow";
-	// $field11 = "teep";
-	// $field12 = "round";
-	// $field13 = "skip_knee";
-	// $field14 = "straight_knee";
-	// $field15 = "four_count_1";
-	// $field16 = "four_count_2";
-	// $field17 = "four_count_3";
-	// $field18 = "four_count_4";
-	// $field19 = "pillar_d";
-	// $field20 = "parry_d";
-	// $field21 = "tight_cover_d";
-	// $field22 = "Wai_q";
-	// $field23 = "Ka_Kap_q";
-	// $field24 = "Mai_Ka_Kap_q";
-	// $field25 = "Sawadee_Ka_Kap_q";
-	// $field26 = "Teep_q";
-	// $field27 = "Sawk_q";
-	// $field28 = "Tang_q"; -->
-	
-	
-	
-	
-	
-	
+			<form id="form" action="http://pic.ucla.edu/~mdavis17/final_project/my_progress.php" method="post">
+
 				<fieldset>
 					Date<input type="date" name="time"/></br>
 					<input type="checkbox" name="stance"/>Stance <span class="move"></span></br>

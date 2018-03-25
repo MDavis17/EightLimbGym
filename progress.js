@@ -4,12 +4,27 @@ function ajax_update_progress(query_str) {
 	{
 		if (xhr.readyState == 4 && xhr.status == 200) 
 		{
+			// var result = xhr.responseText;
+			alert("workout recorded");
+			// update_progress(result);
+		}
+	}	
+	xhr.open("POST", "http://pic.ucla.edu/~mdavis17/final_project/update_progress.php",true);
+	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhr.send(query_str);
+}
+
+function ajax_update_page_progress() {
+var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function () 
+	{
+		if (xhr.readyState == 4 && xhr.status == 200) 
+		{
 			var result = xhr.responseText;
-			console.log("here");
 			update_progress(result);
 		}
 	}	
-	xhr.open("GET", "http://pic.ucla.edu/~mdavis17/final_project/update_progress.php?"+query_str,true);
+	xhr.open("GET", "http://pic.ucla.edu/~mdavis17/final_project/get_progress.php",true);
 	xhr.send(null);
 }
 
@@ -46,4 +61,4 @@ function update_progress(move_list) {
 	document.getElementById("progress_fill").style.width = progress_fill_width+"%";
 }
 
-setInterval(ajax_update_progress,500);
+setInterval(ajax_update_page_progress,500);
