@@ -43,10 +43,10 @@
 		}
 		echo "<input type='button' id='logout' value='Log out' onclick='log_out(\"http://".$url."\")'/></p>";
 		echo "<h1><a id= 'title' href='http://pic.ucla.edu/~mdavis17/final_project/home.php'>Eight Limb Gym</a></h1>";
-		echo "<h4>Online Muay Thai Training Tool</h3>";
+		echo "<h4>Online Muay Thai Training Tool</h4>";
 		echo "<ul id='menu'>";
-			echo "<a href='http://pic.ucla.edu/~mdavis17/final_project/home.php'><li class='menu_item'>Home</li></a>";//onclick='setUrl(\"http://pic.ucla.edu/~mdavis17/final_project/home.php\")'//<a href='http://pic.ucla.edu/~mdavis17/final_project/home.php'>Home</a>
-			echo "<a href='http://pic.ucla.edu/~mdavis17/final_project/my_progress.php'><li class='menu_item'>My Progress</li></a>";//onclick='setUrl(\"http://pic.ucla.edu/~mdavis17/final_project/my_progress.php\")'//<a href='http://pic.ucla.edu/~mdavis17/final_project/my_progress.php'>My Progress</a>
+			echo "<li class='menu_item'><a href='http://pic.ucla.edu/~mdavis17/final_project/home.php'>Home</a></li>";//onclick='setUrl(\"http://pic.ucla.edu/~mdavis17/final_project/home.php\")'//<a href='http://pic.ucla.edu/~mdavis17/final_project/home.php'>Home</a>
+			echo "<li class='menu_item'><a href='http://pic.ucla.edu/~mdavis17/final_project/my_progress.php'>My Progress</a></li>";//onclick='setUrl(\"http://pic.ucla.edu/~mdavis17/final_project/my_progress.php\")'//<a href='http://pic.ucla.edu/~mdavis17/final_project/my_progress.php'>My Progress</a>
 		echo "</ul>";
 	echo "</div>";
 

@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		<script type="text/javascript" scr="utils.js"></script>
+		<script type="text/javascript" src="utils.js"></script>
 		<?php include 'header.php';?>
 		<div class="main_container">
 			<p>Welcome to the registration page!</p>

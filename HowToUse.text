@@ -1,0 +1,19 @@
+Developer notes about Eight Limb Gym:
+
+The Eight Limb Gym app is an online tool to help Nak Muays (practitioners of the Thai martial art of Muay Thai, often called "Thai Boxing") if achieving what they need to learn for the first rank test in the World Thai Boxing Association, a white Prajiet (armband).
+
+The user must register with their name and email, and will then be required to log on before viewing their progress. The progress is shown by the dynamic progress bar that fills as they complete workouts, and by the numbers shown next to each of the moves in the form set up to enter workouts. The user can record workouts with a date, check boxes for each move they did, and extra notes. the workout is logged in a database with ajax, and the page is updated, showing the contribution to the progress bar, the number of times they have practiced a move, and a log entry below the form, so the user can see what all they have completed on any give day.
+
+The user must log out to register new users and the number of registered users is shown on the home page.
+
+Cookies are used to indicate whether a user is logged in.
+Javascript is used for ajax calls and many page updates.
+onclick events are used for form processing submissions.
+DOM searching and inner html updates are used with the log.
+
+Known Bugs:
+Occasionally the database locks and breaks the UI. after this happens, the next log attempt will fail, but subsequent ones will pass.
+
+Other notes:
+I am shooting for an A on this project.
+I made the choice to focus on back end functionality rather than spend lots of time styling my pages. I wanted a consistent header, but I kept the sytling simple throughout the site.

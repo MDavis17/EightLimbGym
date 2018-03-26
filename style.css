@@ -66,7 +66,7 @@ body {
 	font-size: 160%;
 }
 
-.#menu a {
+li a {
 	text-decoration: none;
 	color: white;
 }
@@ -95,7 +95,8 @@ body {
 }
 
 .log_entry {
-	border: 1px solid black;
+	border: 2px solid black;
+	margin: 10px;
 }
 
 .notes {
